@@ -94,7 +94,7 @@ box-shadow: 0px 8px 31px 1px rgb(0, 0, 0);
     left: 0;
     width: 100vw;
     height: 155vh;
-    background-color: rgba(2, 2, 2, 0.95);
+    background-color: rgba(2, 2, 2, 0.97);
     z-index: 2;
   box-shadow: 0px -80vh 12vw -2vw rgb(0, 0, 0) inset;
 }
@@ -1244,6 +1244,7 @@ h2 {
 }
 
 .name {
+
   padding: 5px;
   overflow: hidden;
   display: block;
@@ -1271,6 +1272,7 @@ h2 {
 
 
 .Serial {
+  
   padding-top: 8px;
   padding-bottom: 0;
   margin: 0px 5px 20px 5px;
@@ -1298,6 +1300,7 @@ h2 {
 }
 
 .Serial img{
+  
   border-radius: 5px 5px 5px 5px;
    width: 100%;
   height: 100%;
@@ -1312,9 +1315,10 @@ h2 {
 }
 
 .nevidim{
+
   padding: 50px;
   margin: 0px;
-  border: solid 0px white;
+
   cursor: pointer;
   top: 0px;
   height: 230px;
@@ -1372,35 +1376,26 @@ h2 {
   font-size: 14px;
 }
 .trailer{
-  display: flex;
-  right: 0px;
-  top: 10px;
-  padding: 6px 6px 6px 6px;
-  border-radius: 8px 0px 0px 8px;
-  width: 65px;
-  height: 15px;
+  left: 31px;
+  top: 14px;
+  border-radius: 4px;
+  width: 55px;
+  height: 13px;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.2px;
-  margin: 2px 0px 0px 0px;
+
   position: absolute;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .8);
   color: #cfcfcf;
   text-decoration: none;
-  border-bottom-style: solid;
+
   z-index: 23;
-  padding-left: 5px;
+  padding: 0px 8px 8px 8px;
 
 }
-.trailer:hover{
-  opacity: 1;
-  background-color: rgba(0, 0, 0, .7);
-  color: white;
-}
-.trailer p{
-  position: absolute;
-  right: 0;
-}
+
+
 
 
 
