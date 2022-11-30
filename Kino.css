@@ -79,7 +79,7 @@ z-index: 43;
 box-shadow: 0px 8px 31px 1px rgb(0, 0, 0);
 }
 .fon_img  img{
-    top: -88vh;
+    top: -25vh;
     left: 0;
     width: 100vw;
     /* height: 120vh; */
@@ -373,16 +373,18 @@ color: ;
 
 
 .wrapper{
+
   display: flex;
   justify-content: center;
   width: 100%;
-  z-index: 2;
+  z-index: 2222;
 
 }
 
 .contentt{
+  
   left: 0;
-  margin-top: 20vh;
+  margin-top: 21vh;
   display: inline-flex;
   /* justify-content: center; */
   flex-wrap: wrap;
@@ -1134,11 +1136,11 @@ width: 69px;
 }
 
 .online2{
-  margin-top: -10px;
-  position: relative;
+  margin-top: 0px;
+  position: absolute;
   display: flex;
   width: 1110px;
-  height: 50px;
+  height: 0px;
   
  
 }
