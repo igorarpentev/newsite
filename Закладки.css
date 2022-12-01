@@ -1317,7 +1317,7 @@ h2 {
 .nevidim{
 
   padding: 50px;
-  margin: 0px;
+  margin-left: -10px;
 
   cursor: pointer;
   top: 0px;
@@ -1325,13 +1325,33 @@ h2 {
   position: absolute;
   width: 140px;
   /* background-color: #0068bd3b; */
+  opacity: 1;
+  z-index: 23;
+  transition: 0.3s;
+}
+
+.nevidim:hover{
+  transform: scale(1);
+  margin-top: 0px;
+  opacity: 1;
+  transition: 0.4s all 0s;
+}
+.nevidim2{
+
+
+  left: 0px;
+
+  cursor: pointer;
+  top: -20px;
+  height: 230px;
+  position: absolute;
+  width: 140px;
   opacity: 0;
   z-index: 23;
   transition: 0.3s;
 }
-.nevidim:hover{
-  transform: scale(1);
-  margin-top: 0px;
+.nevidim2:hover{
+  top: -5px;
   opacity: 1;
   transition: 0.4s all 0s;
 }
@@ -1392,9 +1412,24 @@ h2 {
 
   z-index: 23;
   padding: 0px 8px 8px 8px;
-
 }
-
+.delete {
+  right: -10px;
+  top: 0px;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, .8); */
+  color: #dddddd;
+  text-decoration: none;
+  z-index: 23;
+  padding: 14px 18px 8px 8px;
+  text-shadow: 0px 1px 5px rgb(0, 0, 0);
+}
+.delete:hover{
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 5px rgb(0, 0, 0);
+}
 
 
 
