@@ -424,8 +424,8 @@ color: ;
   position: relative; 
   /* border: solid 1px black; */
   float: right;
-  height: 438px;
-  width: 1110px;
+  height: 444px;
+  width: 1120px;
   z-index: 2;
   border-radius: 5px 5px 5px 5px;
   overflow: hidden;
@@ -1139,7 +1139,7 @@ width: 69px;
   margin-top: 0px;
   position: absolute;
   display: flex;
-  width: 1110px;
+  width: 1120px;
   height: 0px;
   
  
@@ -1150,7 +1150,7 @@ width: 69px;
   margin-top: 70px;
   border-radius: 5px;
   display: flex;
-  width: 1110px;
+  width: 1120px;
   height: 30px;
   background-color: #18181881;
   z-index: 2;
@@ -1402,9 +1402,6 @@ h2 {
   right: 0;
 }
 
-.delete {
-  
-}
 
 
 .sm_potom{
