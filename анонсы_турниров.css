@@ -1678,7 +1678,7 @@ body {
         background-color: #2982ff00;
         min-width: 100px;
         font-size: 10px;
-        margin-top: -10px;
+        margin-top: -7px;
         margin-left: 0px;
         padding: 0;
       }
@@ -1706,7 +1706,7 @@ body {
         margin-left: 0px;
         color: white; 
  
-      font-size: 16px;
+      font-size: 15px;
       text-decoration: none;
     
         opacity: 1;
@@ -1731,11 +1731,17 @@ body {
         list-style: none;
         align-items: center;
         color: #8e93df;
-        font-size: 17px;
+        font-size: 15px;
         /* font-weight: 100; */
         left: 0;
         margin-top: -3px;
         padding: 44px 12px 25px 12px;
+      
+      }
+      .button_home_now p:hover{
+       
+        color: #c8ccff;
+       
       }
     .button_home{
         box-sizing:border-box; 
@@ -1756,7 +1762,7 @@ body {
         list-style: none;
         align-items: center;
         color: #8e93df;
-        font-size: 17px;
+        font-size: 15px;
         /* font-weight: 100; */
         left: 0;
         margin-top: -3px;
@@ -1764,7 +1770,7 @@ body {
       }
       .button_home p:hover{
         color: #ffffff;
-        font-size: 17px;
+        font-size: 15px;
       }
 
 
