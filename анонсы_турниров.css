@@ -1683,10 +1683,10 @@ body {
         padding: 0;
       }
       .button_now p, .button7 p{
-        font-size: 15px;
+        font-size: 14px;
       }
       .button_now p:hover, .button7 p:hover{
-        font-size: 15px;
+        font-size: 14px;
       }
       .open-popup{
         opacity: 0;
@@ -1731,7 +1731,7 @@ body {
         list-style: none;
         align-items: center;
         color: #8e93df;
-        font-size: 15px;
+        font-size: 14px;
         /* font-weight: 100; */
         left: 0;
         margin-top: -3px;
@@ -1762,7 +1762,7 @@ body {
         list-style: none;
         align-items: center;
         color: #8e93df;
-        font-size: 15px;
+        font-size: 14px;
         /* font-weight: 100; */
         left: 0;
         margin-top: -3px;
@@ -1770,15 +1770,54 @@ body {
       }
       .button_home p:hover{
         color: #ffffff;
-        font-size: 15px;
+        font-size: 14px;
       }
-
-
-
-
-
-
-
+      .header__link_home{
+        margin-left: 0px;
+        color: white; 
+        text-decoration: none;
+        opacity: 1;
+    }
+      .button_home{
+          box-sizing:border-box; 
+          background-color: rgba(0,0,0,0);
+          border: none;
+          padding: 0px;
+          margin: 0px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          cursor: pointer;
+          float: left;
+          z-index: 23;
+      }
+      .button_home p{
+          font-family:'Russo One', sans-serif;
+          position: relative;
+          list-style: none;
+          align-items: center;
+          color: #8e93df;
+          font-size: 14px;
+          /* font-weight: 100; */
+          left: 0;
+          margin-top: -3px;
+          padding: 44px 12px 25px 12px;
+        }
+        .button_home p:hover{
+          color: #ffffff;
+          font-size: 14px;
+        }
+        .button_now p{
+          font-size: 14px;
+        }
   }
 
- 
+
+  .header__link_home{
+    margin-left: -16px;
+    opacity: 0;
+}
+.button_home{
+    
+  font-size: 0px;
+}
