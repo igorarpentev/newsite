@@ -14,24 +14,25 @@
 <body>
     
 <div class="header" > 
-    <div class="header_menu" style="padding-right: 17px;"> 
+    <div class="header_menu"  > 
         <h1 class="home" title="Автор сайта"> ProTanki eSports</h1>
         
-<nav class="header__menu">
+<nav class="header__menu"  >
         <div class="btn-group">
-            <ul class="header_list">
+            <ul class="header_list_home">
                 <li>
-                    <a href="index.html"  class="header__link_home"><button class="button_home_now">
+                    <a class="header__link_home"><button class="button_home_now">
                    <p>   <i class="fa-solid fa-house"></i> Главная </p></button></a>
                    </li>
-                <li>
-                    <a href="чзв.html" class="header__link"><button class="button">
-                    <p> <i class="fa-solid fa-circle-question"></i> FAQ </p></button></a>
-                    </li>
+                 
                     <li>
-                     <a href="правила.html"  class="header__link"><button class="button">
+                     <a href="правила.html" class="header__link"><button class="button">
                     <p>   <i class="fa-solid fa-file-lines"></i> Правила </p></button></a>
                     </li>
+                    <li>
+                        <a href="чзв.html" class="header__link"><button class="button">
+                        <p> <i class="fa-solid fa-circle-question"></i> FAQ </p></button></a>
+                        </li>
                     <li>
                     <a href="форматы.html"  class="header__link"><button class="button">
                     <p> <i class="fa-solid fa-align-left"></i> Форматы </p></button></a>
@@ -71,11 +72,13 @@
 </div> 
 
     <video id="vide" autoplay muted loop preload="auto" class="full-screen__video">
+        <source id="vid" type="video/mp4" src="https://rr5---sn-4g5e6ns7.googlevideo.com/videoplayback?expire=1670811715&ei=4zuWY_akL6KEvdIP4vWS-Ac&ip=160.86.29.161&id=o-AFiHW-cBhqDAELeURKfMLztvHTXJ01v7rflpExFOaQmc&itag=248&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&spc=SFxXNmlbcoKKiDRkCkA9Ovju111_3kM&vprv=1&mime=video%2Fwebm&ns=O2tfab7wnpPWo-i-L0ApENUJ&gir=yes&clen=457531399&dur=1868.700&lmt=1668707357486157&keepalive=yes&fexp=24001373,24007246&c=WEB&txp=5319224&n=uRkJxzyv8rNlJQ&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgWrAiCD76SvHLmM1tI4DLccTeMFrJ1ZwlIg9Cdi9jPJ8CIQDTkZoYVe-Ky9mQc7TfE0qgvzGDCUvIGFxIzIUvO1Jnbw%3D%3D&rm=sn-nvoxu-ioqd7s,sn-3pm6l7e&req_id=f74a8374a430a3ee&cmsv=e&redirect_counter=2&cms_redirect=yes&ipbypass=yes&mh=1X&mip=92.115.223.24&mm=29&mn=sn-4g5e6ns7&ms=rdu&mt=1670789841&mv=m&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAMuESAtMDrOlzZjXdwL1LHUyopPXO7tnb0zhlHuhMTqfAiApWJti7hEIw9fEpIMYCclhC_11WFBC-RBYJDsA5YuH7g%3D%3D">
+       
         <!-- <source id="vid" type="video/mp4" src="https://rr2---sn-4g5e6nsk.googlevideo.com/videoplayback?expire=1670299744&ei=AGyOY8rJF7n7xN8PwZyVqAc&ip=219.100.37.238&id=o-ACl6eekLTmrueL7rpbFnaZHukxu9j_onj1BVszrgPIr7&itag=303&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308&source=youtube&requiressl=yes&pcm2=yes&spc=SFxXNhpNLUTxqgCIGh5Ro_dMhDK2yAk&vprv=1&mime=video%2Fwebm&ns=uukuHxIE7AmdLgWd7l9QoVoJ&gir=yes&clen=35764187&dur=75.166&lmt=1602938583668823&keepalive=yes&fexp=24001373,24007246&c=WEB&txp=6216222&n=7SQCeRfy1ECjqA&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cpcm2%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgMAVO5k3k_QHISmOSdQJcNGIzO-PgD-Ho99nG8QDEE1gCIQCbdAkoeM_tCcVOHATFsln4f9jf6THEhD2JuQM6F1U0lQ%3D%3D&rm=sn-xgmnpoxuopp-puhe7d,sn-3pmsr7s&req_id=33f87c995b87a3ee&cmsv=e&redirect_counter=2&cms_redirect=yes&ipbypass=yes&mh=MU&mip=92.115.223.24&mm=29&mn=sn-4g5e6nsk&ms=rdu&mt=1670277676&mv=m&mvi=2&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAMAsL6jfOyBPcmtn2fRPHAE8tGTmm4vQ16RHlRBpHqaqAiEAhHhvyjK7LRwJdcOWTMcyRnJKtzzx9hwtFibt9bS_NrU%3D?start=40"> -->
-        <source id="vide" type="video/mp4" src="videoplayback.webm">
+        <!-- <source id="vide" type="video/mp4" src="videoplayback.webm"> -->
         <source type="video/mp4" src="#.mp4">
     </video>
-    <script src="video.js"></script>
+    <!-- <script src="video.js"></script> -->
 
 
 <div class="name"> 
@@ -89,14 +92,14 @@
 		<h2 class="frame-4">ProTanki</h2>
 		<h2 class="frame-5">
 			<span> </span>
-			<span> ProTanki eSports</span>
+			<span> PROTANKI ESPORTS</span>
 			<span> </span>
 		</h2>
 		<a class="sp-circle-link" title="Автор сайта">by  Jonas</a>
 	</div>
 </div>
 
-</div>
+</div> 
 
 <div class="popup__bg">
     <form class="popup">
