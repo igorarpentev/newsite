@@ -93,8 +93,8 @@ body {
 /* =================== */
 .header__menu{
     /* margin-left: 5vh; */
- margin-left: auto;
- margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     overflow: visible;
     display: flex;  
     align-items: center;
@@ -148,7 +148,7 @@ body {
         margin-top: -3px;
         /* padding: 44px 10px 25px 10px; */
       }
-    .button, .button_top_faq, .button_top_faq_now {
+    .button, .button_top_faq {
         box-sizing:border-box; 
          background-color: rgba(0,0,0,0);
          border: none;
@@ -201,7 +201,14 @@ body {
         opacity: 0;
     } */
 
- 
+    .button, .button_top_faq, .button_home2, .button_home{ 
+      background-color: #2b92346c;
+    }
+    .button_now, .button_top_faq_now, .button_home2_now, .button_home2{ 
+      color: white;
+      font-weight: 900;
+    }
+
     .btn-group{
     z-index: 5;
     display: flex;
@@ -1588,7 +1595,7 @@ body {
           overflow: hidden;
           position: fixed;
           bottom: -10px;
-          height: 54px;
+          height: 60px;
       }
       .header__menu{
         height:  40px;
@@ -1847,9 +1854,10 @@ a {
 }
 .header {
 
- 
+  background-color: #222222;  
   border-bottom: solid 1px rgba(0, 0, 0, 0.315);
-  box-shadow: 0px 50px 40px 0px rgb(0, 14, 26) inset, 0px -10px 30px 10px rgb(0, 9, 17);
+  box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.596);
+   /* 0px 40px 40px 0px rgba(0, 12, 24, 0.527) inset; */
  
 }
 
