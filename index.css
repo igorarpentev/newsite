@@ -105,6 +105,7 @@ body {
       display: flex;
       position: relative;
       z-index: 55;
+
       margin: 0;
     }
     .header_list li{
@@ -113,19 +114,8 @@ body {
         margin: 0px 0px 0px 0px;
          align-items: center;
     }
-    .header_list_home{
-      font-family:'Nunito', sans-serif;
-      display: flex;
-      position: relative;
-      z-index: 55;
-      margin-right: 10px;
-    }
-    .header_list_home li{
-        list-style: none;
-        padding: 0;
-        margin: 0px 0px 0px 0px;
-         align-items: center;
-    }
+   
+   
     
     /* ТЕКСТ В ВЕРХНЕМ МЕНЮ */
     .button_now {
@@ -175,7 +165,7 @@ body {
      .butoon:hover, .button_top_faq:hover{
       color: #ffffff;
      }
-    .button_home, .button_bottom_faq_now, .button_bottom_faq{
+    .button_home, .button_bottom_faq_now, .button_bottom_faq, .button_home2{
         position: absolute;
         opacity: 0;
         font-size: 0px;
@@ -470,24 +460,15 @@ body {
     transition: 0.05s;
 }
 
-/* ======================================== */
-.full-screen__video{
-    position: fixed;
-    top: -12vh;
-    width: 100vw;
-    z-index: 3;
-}
 
-.full-screen{
-    /* border-bottom: solid 1px rgba(63, 63, 63, 0.548); */
-    top: 0vh;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0, 4, 8, 0.58);
-    z-index: 4;
-    box-shadow: 1px -20vh 21vh 7vh rgb(10, 10, 10) inset;
-}
+
+
+
+
+
+
+
+
 
 .name {
     position: absolute;
@@ -909,7 +890,7 @@ h1.main, p.demos {
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
-	font-size: 90px;
+	font-size: 80px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
@@ -937,12 +918,13 @@ h1.main, p.demos {
 	animation-delay: 7s;
 }
 .sp-container h2.frame-4 {
-	font-size: 200px;
+	font-size: 80px;
 	-webkit-animation-delay: 10s;
 	-moz-animation-delay: 10s;
 	-ms-animation-delay: 10s;
 	animation-delay: 10s;
 }
+ 
 .sp-container h2.frame-5 {
 	-webkit-animation: none;
 	-moz-animation: none;
@@ -950,6 +932,7 @@ h1.main, p.demos {
 	animation: none;
 	color: transparent;
 	text-shadow: 0px 0px 1px #fff;
+
 }
 .sp-container h2.frame-5 span {
 	-webkit-animation: blurFadeIn 3s ease-in 12s backwards;
@@ -981,7 +964,7 @@ h1.main, p.demos {
 	line-height: 100px;
 	width: 100px;
 	height: 100px;
-	background: rgba(57, 136, 255, 0);
+	background: rgba(43, 8, 8, 0.829);
 	color: #3f1616;
 	font-size: 25px;
 	-webkit-border-radius: 50%;
@@ -1317,7 +1300,7 @@ body {
     width: 100%;
     height: 100px;
     background-color: #242424ad;
-       
+    z-index: 12;
 }
 
  
@@ -1414,7 +1397,7 @@ body {
 .social_home {
     position: absolute;
     min-width: 300px;
-    width: 100%;
+    width: 100vw;
     max-width: 1610px;
     height: 70px;
      
@@ -1424,13 +1407,14 @@ body {
   .social {
     z-index: 23;
     position: relative;
-    max-width: 1125px;
+    max-width: 1390px;
     margin-left: auto;
     margin-right: auto;
+
   }
   .social_2 {
-    margin-right: 15px;
-     width: 180px;
+    margin-right: 45px;
+    max-width: 180px;
     position: absolute;
     right: 0;
     
@@ -1461,6 +1445,25 @@ body {
       margin: 0;
       /* overflow-x: hidden; */
     }
+
+
+    .social_home {
+      position: absolute;
+      width: 100vw;
+ 
+      height: 50px;
+      
+      top: 0;
+      z-index: 22;
+  }
+    .social_2 {
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      min-width: 175px;
+      position: absolute;
+    }
+
 
     .header__menu {
        margin-left: 0;
@@ -1517,7 +1520,7 @@ body {
          
         /* font-size: 10px; */
          margin-top: -28px; /*ВВЕРХ ПОДНИМАЕТ ТЕКСТ МЕНЮ */
-        margin-left: 0px;
+        left: -5px;
         padding: 0;
       }
       .header_list li{
@@ -1550,18 +1553,7 @@ body {
       margin-bottom: 5vh;
       padding: 10vh 5vw 0px 5vw;
     }
-   
- 
-      
- 
-  
- 
     
-     
-     
-     
-      
-     
       .header_list_home{
         font-family:'Nunito', sans-serif;
         display: flex;
@@ -1579,7 +1571,7 @@ body {
       }
       /* ============================ */
       .header{
-        border-top: solid 1px rgba(255, 255, 255, 0.288);
+        border-top: solid 1px rgba(114, 114, 114, 0.288);
           overflow: hidden;
           position: fixed;
           bottom: -10px;
@@ -1609,7 +1601,7 @@ body {
         opacity: 1;
         font-size: 13px;
       }
-      .button, .button_home, .button_now, .button_bottom_faq, .button_bottom_faq_now {
+      .button, .button_home, .button_now, .button_bottom_faq, .button_bottom_faq_now, .button_home2 {
         box-sizing:border-box; 
         background-color: rgba(0,0,0,0);
         border: none;
@@ -1626,7 +1618,7 @@ body {
         position: relative;
          
       }
-      .button p, .button_home p,  .button_now p, .button_bottom_faq p, .button_bottom_faq_now p{
+      .button p, .button_home p,  .button_now p, .button_home2 p  {
         font-family:'Russo One', sans-serif;
         position: relative;
         list-style: none;
@@ -1641,10 +1633,25 @@ body {
         margin-top: 0px;
         padding:   0px 5px 10px 5px;
       }
+      .button_bottom_faq p, .button_bottom_faq_now p{
+        font-family:'Russo One', sans-serif;
+        position: relative;
+        list-style: none;
+        align-items: center;
+   
+        font-size: 13px;
+        width: 45px;
+        height: 0px;
+        /* font-weight: 100; */
+        top: 0;
+        left: 0;
+        margin-top: 0px;
+        padding:   0px 5px 10px 5px;
+      }
       .button p:hover, .button_home p:hover, .button_home_now p:hover, .button_now p:hover, .button_bottom_faq p:hover{
         font-size: 13px;
       }
-      .button_now, .button_bottom_faq_now, .button_home_now {
+      .button_now, .button_bottom_faq_now, .button_home_now, .button_home2 {
         color: white;
       }
       .button_home:hover, .button_bottom_faq:hover, .button:hover{
@@ -1657,7 +1664,7 @@ body {
         opacity: 0;
       }
 
-.button_bottom_faq_now p{
+.button_bottom_faq_now p, .button_home2 p{
   font-family: 'Default', sans-serif;
   font-weight: 900;
   font-size: 13px;
@@ -1669,3 +1676,171 @@ body {
 
  
    
+
+
+
+
+/* ============================================================== */
+/* ======================================== */
+
+.full-screen{
+  border-bottom: solid 1px rgba(63, 63, 63, 0.548);
+  top: 0;
+  position: fixed;
+  /* overflow: hidden; */
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 4, 8, 0.88);
+  z-index: 4;
+  box-shadow: 1px -15vh 21vh 7vh rgb(10, 10, 10) inset;
+}
+.full-screen__video{
+position: fixed;
+margin-top:  -70px;
+top: 0px;
+width: 100vw;
+z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+html,
+body {
+  margin: 0;
+}
+.block_video{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+ 
+}
+ 
+.full-screen__video{
+  position: absolute;
+  margin-top: 0px;
+  margin-left:  0px;
+  min-width: 1700px;
+  z-index: 3;
+}
+
+}
+@media screen and (max-width: 1000px) {
+  .block_video{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    margin-top: 15vh;
+  }
+  .full-screen__video{
+    position: absolute;
+    margin-top: 0px;
+    margin-left:  0px;
+    min-width: 1000px;
+    z-index: 3;
+  }
+  .sp-circle-link {
+    opacity: 0;
+  }
+  .sp-container h2 {
+    position: absolute;
+    top: 50%;
+    line-height: 50px;
+    height: 90px;
+    margin-top: -50px;
+    font-size: 50px;
+     
+  }
+
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+.block_video{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  margin-top: 15vh;
+ 
+}
+.full-screen__video{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -350px;
+  min-width: 1000px;
+  z-index: 3;
+}
+.sp-circle-link {
+  opacity: 0;
+}
+
+
+
+.container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+h1.main, p.demos {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.sp-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  
+}
+.sp-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+}
+.sp-container h2 {
+  position: absolute;
+  top: 50%;
+  line-height: 40px;
+  height: 90px;
+  margin-top: -50px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+  -webkit-animation: blurFadeInOut 3s ease-in backwards;
+  -moz-animation: blurFadeInOut 3s ease-in backwards;
+  -ms-animation: blurFadeInOut 3s ease-in backwards;
+  animation: blurFadeInOut 3s ease-in backwards;
+}
+
+.header {
+
+ 
+  border-bottom: solid 1px rgba(0, 0, 0, 0.315);
+  box-shadow: 0px 50px 40px 0px rgb(0, 14, 26) inset, 0px -10px 30px 10px rgb(0, 9, 17);
+ 
+}
+
+}
