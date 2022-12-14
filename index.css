@@ -427,17 +427,6 @@ body {
     font-weight: 900;
     z-index: 5;
 }
-.name_faq {
-    position: relative;
- 
-    margin-top: 0px;
-    color: rgb(133, 100, 255);
-    font-size: 44px;
-    font-weight: 900;
-    z-index: 5;
-}
-
-
 
 .comments{
   
@@ -450,10 +439,10 @@ body {
 }
 .disqus_thread p{
   color: rgb(196, 197, 204);
- 
 }
-.questions-answer{
 
+.questions-answer{
+  line-height: 1;
     position: relative;
     max-width: 1150px;
     margin-top: 33px;
@@ -462,6 +451,16 @@ body {
 .questions-answer b{
    color: rgb(184, 187, 226);
 }
+.name_faq {
+  position: relative;
+line-height: 1;
+  margin-top: 0px;
+  color: rgb(133, 100, 255);
+  font-size: 44px;
+  font-weight: 900;
+  z-index: 5;
+}
+
 .questions {
     margin-top: 25px;
     position: relative;
@@ -769,6 +768,38 @@ padding: 9px 7px 7px 7px;
     margin: 0;
     /* overflow-x: hidden; */
   }
+
+  .name_faq {
+    position: relative;
+    line-height: 1;
+    margin-top: 0px;
+    color: rgb(133, 100, 255);
+    font-size: 30px;
+    font-weight: 900;
+    z-index: 5;
+  }
+  
+  .questions {
+      margin-top: 25px;
+      position: relative;
+   
+      color: rgb(219, 219, 219);
+      font-size: 20px;
+      font-weight: 900;
+      z-index: 5;
+  }
+  .answer {
+      font-family:'Nunito', sans-serif;
+      margin-top: 5px;
+      position: relative;
+      letter-spacing: 0.5px;
+      color: rgb(184, 184, 184);
+      font-size: 17px;
+      line-height: 1.2;
+      z-index: 5;
+  }
+
+
   .info_balance{
     margin-top:    0px;
     box-shadow: 0px -30px 155px 200px rgb(0 0 0);
