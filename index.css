@@ -8,8 +8,9 @@
   box-sizing: border-box;
 }
 a {  text-decoration: none; 
-    color: rgb(147, 160, 255);;
-}
+    /* color: rgb(147, 160, 255); */
+     color: rgb(147, 197, 255);
+  }
 ul,
 ol,
 li {  list-style: none;   }
@@ -769,9 +770,10 @@ padding: 9px 7px 7px 7px;
     /* overflow-x: hidden; */
   }
 .disqus_thread{
-  transform: scale(0.7);
+ 
 }
   .name_faq {
+ 
     position: relative;
     line-height: 1;
     margin-top: 0px;
