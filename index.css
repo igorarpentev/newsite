@@ -1864,7 +1864,7 @@ body {
   width: 100vw;
   background-color: rgba(0, 4, 8, 0.6);
   z-index: 4;
-  box-shadow: 1px -15vh 21vh 7vh rgb(10, 10, 10) inset;
+  box-shadow: 1px -15vh 21vh 7vh rgba(10, 10, 10, 0.288) inset;
 }
 .full-screen__video{
 position: fixed;
