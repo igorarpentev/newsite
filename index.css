@@ -443,7 +443,7 @@ body {
   
   margin-left: -10px;
  
-  width: calc(100% - 20px)
+  width: calc(100% - 20px);
   padding: 5px 25px 5px 20px;
   background-color: #7c7c7c15;
   border-radius: 15px;
