@@ -660,7 +660,8 @@ padding: 9px 7px 7px 7px;
     }
     .img_top {
         overflow: hidden;
-        height: 450px;
+         
+        min-height: 450px;
         width: 100%;
         right: 0;
         z-index: 4;
@@ -668,7 +669,7 @@ padding: 9px 7px 7px 7px;
     .img_top img{
         margin-top: -75px;
         width: 100%;
-        min-width: 100px;
+        min-width: 10px;
         right: 0;
         z-index: 4;
     }
@@ -686,7 +687,9 @@ padding: 9px 7px 7px 7px;
 
 
     .info_balance{
-      
+  
+      position: relative;
+
         margin-top:  0px;
         /* min-height: 12px; */
  
@@ -773,6 +776,12 @@ padding: 9px 7px 7px 7px;
   .img_top img{
     margin-top: -20px;
   }
+  .img_top {
+ 
+    min-height: 300px;
+  
+}
+ 
   .name_news {
    font-size: 20px;
    line-height: 1;
