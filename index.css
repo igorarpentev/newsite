@@ -485,7 +485,7 @@ line-height: 1;
   color: rgb(147, 197, 255);
 }
 .answer a:hover{
-   text-decoration: line-through;
+   text-decoration: underline;
 }
 .clause {
     margin-top: 10px;
