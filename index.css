@@ -8,8 +8,8 @@
   box-sizing: border-box;
 }
 a {  text-decoration: none; 
-    /* color: rgb(147, 160, 255); */
-     color: rgb(147, 197, 255);
+    color: rgb(147, 160, 255); 
+
   }
 ul,
 ol,
@@ -796,10 +796,10 @@ padding: 9px 7px 7px 7px;
       font-family:'Nunito', sans-serif;
       margin-top: 5px;
       position: relative;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.4px;
       color: rgb(184, 184, 184);
       font-size: 17px;
-      line-height: 1.2;
+      line-height: 1;
       z-index: 5;
   }
 
@@ -1330,7 +1330,7 @@ body {
 
 /* ==================================== */
 .content{
- 
+  
     position: relative;
      margin-left: auto;
      margin-right: auto;  
@@ -1345,7 +1345,9 @@ body {
     border-bottom: 1px solid wheat; */
     z-index: 2;
 }
-
+.content a{
+color: rgb(147, 197, 255);
+}
 .footer{
     margin-top:  ;
     position: absolute;
