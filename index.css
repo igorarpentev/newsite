@@ -1805,7 +1805,7 @@ body {
   /* overflow: hidden; */
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 4, 8, 0.68);
+  background-color: rgba(0, 4, 8, 0.88);
   z-index: 4;
   box-shadow: 1px -15vh 21vh 7vh rgb(10, 10, 10) inset;
 }
