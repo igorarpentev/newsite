@@ -440,11 +440,17 @@ body {
 
 
 .comments{
+  
   margin-left: -10px;
-  width: 100%;
+ 
+  width: calc(100% - 20px)
   padding: 5px 25px 5px 20px;
   background-color: #7c7c7c15;
   border-radius: 15px;
+}
+.disqus_thread p{
+  color: rgb(196, 197, 204);
+ 
 }
 .questions-answer{
 
@@ -567,9 +573,7 @@ padding: 9px 7px 7px 7px;
 }
 
 /* =========================================== */
-.disqus_thread{
- 
-}
+
 
 .news_block{
     margin-left: auto;
