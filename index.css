@@ -481,6 +481,12 @@ line-height: 1;
     line-height: 1.2;
     z-index: 5;
 }
+.answer a{
+  color: rgb(147, 197, 255);
+}
+.answer a:hover{
+   text-decoration: line-through;
+}
 .clause {
     margin-top: 10px;
     position: relative;
@@ -1346,7 +1352,7 @@ body {
     z-index: 2;
 }
 .content a{
-color: rgb(147, 197, 255);
+
 }
 .footer{
     margin-top:  ;
