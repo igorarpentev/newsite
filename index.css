@@ -768,7 +768,9 @@ padding: 9px 7px 7px 7px;
     margin: 0;
     /* overflow-x: hidden; */
   }
-
+.disqus_thread{
+  transform: scale(0.7);
+}
   .name_faq {
     position: relative;
     line-height: 1;
