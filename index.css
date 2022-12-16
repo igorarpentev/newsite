@@ -279,6 +279,7 @@ body {
     width: 50vw;
     box-shadow: 10vw 0vw 20vw 4vw rgba(0, 13, 189, 0.233) inset;
     filter: blur(112px);
+    z-index: 0;
 }
 .right_block{
     top: 30vh;
@@ -288,6 +289,7 @@ body {
     width: 50vw;
     box-shadow: -10vw 0vw 20vw 4vw rgba(23, 0, 78, 0.767) inset;
     filter: blur(112px);
+    z-index: 1;
 }
 .blur {
     width: 100vw;
@@ -438,6 +440,7 @@ body {
   padding: 5px 25px 5px 20px;
   background-color: #7c7c7c15;
   border-radius: 15px;
+  z-index: 100;
 }
 .disqus_thread p{
   color: rgb(196, 197, 204);
