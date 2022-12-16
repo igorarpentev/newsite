@@ -280,6 +280,7 @@ body {
     box-shadow: 10vw 0vw 20vw 4vw rgba(0, 13, 189, 0.233) inset;
     filter: blur(112px);
     z-index: 0;
+    pointer-events: none;
 }
 .right_block{
     top: 30vh;
@@ -290,6 +291,7 @@ body {
     box-shadow: -10vw 0vw 20vw 4vw rgba(23, 0, 78, 0.767) inset;
     filter: blur(112px);
     z-index: 1;
+    pointer-events: none;
 }
 .blur {
     width: 100vw;
@@ -297,6 +299,7 @@ body {
     position: fixed;
     filter: blur(22px);
     z-index: 1;
+    
 }
 .blur2 {
     width: 100vw;
