@@ -7,7 +7,7 @@ function scrollTo(element) {
     })
   }
   
-  var smotr = document.querySelector('.smotr');
+  var smotr = document.querySelector('.button_now');
   var contacts = document.querySelector('#contacts');
   
   smotr.addEventListener('click', () => {
