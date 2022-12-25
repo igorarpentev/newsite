@@ -1778,6 +1778,35 @@ body {
   color: white;
   border: solid 1px rgb(252, 252, 252);
 }
+
+
+
+
+.play_button {
+  
+   
+  border-radius: 10px;
+  border: solid 1px rgba(255, 255, 255, 0.493);
+  word-spacing: 5px;
+  font-family: 'Oswald';
+  position: fixed;
+  margin-top: 45vh;
+  margin-left: -155px;
+ 
+  width: x;
+  color: rgb(182, 182, 182);
+  font-size: 22px;
+  padding: 20px 80px 23px 80px;
+ z-index: 600;
+  cursor: pointer;
+  z-index: 22;
+}
+.play_button:hover {
+  color: white;
+  border: solid 1px rgb(252, 252, 252);
+  background-color: rgba(0, 0, 0, 0.267);
+  
+}
 .copy {
   cursor: pointer;
   font-size: 25px;
@@ -2730,7 +2759,7 @@ z-index: 333;
  justify-content: center;
   text-align: center;
   width: 100%;
- z-index: 555;
+ z-index: 22;
  position: absolute;
 }
 .block_row_home {
